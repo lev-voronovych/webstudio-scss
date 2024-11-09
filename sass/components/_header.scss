@@ -1,0 +1,67 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 93px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.logo-span {
+    color: $ColorAccent;
+}
+
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.28px;
+    color:$MainTextColor;
+}
+
+.nav-link:hover {
+    color:$ColorAccent;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.contacts-svg {
+    margin-right: 10px;
+}
+
+.contacts-link {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.28px;
+    color:$LinkColor;
+}
+
+.contacts-item:hover {
+    fill:$ColorAccent;
+}
+
+.contacts-link:hover {
+    color:$ColorAccent;
+}
