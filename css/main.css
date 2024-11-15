@@ -108,6 +108,20 @@
   color: #2196f3;
 }
 
+.nav-item:nth-child(1) {
+  color: #2196f3;
+}
+
+.nav-item:nth-child(1)::after {
+  content: "";
+  margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196f3;
+}
+
 .header-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,52 +285,6 @@
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.42px;
-}
-
-/*work*/
-.work {
-  padding-bottom: 94px;
-}
-
-.work-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 50px;
-  gap: 30px;
-}
-
-.work-title {
-  margin-bottom: 50px;
-  color: #212121;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 1.08px;
-}
-
-.work-item {
-  position: relative;
-}
-
-.work-overley {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  width: 100%;
-  background-color: rgba(47, 48, 58, 0.8);
-  color: #FFFFFF;
 }
 
 h1,
@@ -631,4 +599,49 @@ img {
   .container {
     width: 1200px;
   }
+}
+
+.work {
+  padding-bottom: 94px;
+}
+
+.work-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.work-title {
+  margin-bottom: 50px;
+  color: var(--main-text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1.08px;
+}
+
+.work-item {
+  position: relative;
+}
+
+.work-overley {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #FFFFFF;
 }
