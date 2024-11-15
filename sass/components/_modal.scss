@@ -39,7 +39,7 @@
     border-radius: 50%;
 }
 
-.modal-title {
+.form-title{
     color: #212121;
     text-align: center;
     font-size: 20px;
@@ -48,11 +48,11 @@
     letter-spacing: 0.6px;
 }
 
-.modal-form {
+.form {
     margin-top: 12px;
 }
 
-.modal-name {
+.form-label {
     margin-bottom: 4px;
     color:$LinkColor;
     font-size: 12px;
@@ -61,58 +61,16 @@
     letter-spacing: 0.12px;
 }
 
-.name-input {
+.form-input {
     width: 448px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
 }
 
-.modal-phone {
-    margin-top: 10px;
-    margin-bottom: 4px;
-    color:$LinkColor;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.12px;
-}
 
-.phone-input {
-    width: 448px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid rgba(33, 33, 33, 0.20);
-}
 
-.emeil-text {
-    margin-top: 10px;
-    margin-bottom: 4px;
-    color: $LinkColor;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.12px;
-}
-
-.emeil-input {
-    width: 448px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid rgba(33, 33, 33, 0.20);
-}
-
-.messeg-text {
-    margin-top: 10px;
-    margin-bottom: 4px;
-    color:$LinkColor;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.12px;
-}
-
-.message-input {
+.comment {
     width: 100%;
     height: 120px;
     padding: 12px 16px;
