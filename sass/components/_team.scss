@@ -4,17 +4,18 @@
 }
 
 .team-title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: $MainTextColor;
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 1.08px;
+  letter-spacing: 0.84px;
 }
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
