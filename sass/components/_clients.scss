@@ -16,6 +16,7 @@
 
 .clients-item {
     padding: 16px 32px;
+    flex-basis: calc((100% - 60px) / 3);
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;

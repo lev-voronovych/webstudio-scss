@@ -16,6 +16,7 @@
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc((100% - 60px) / 3);
   gap: 30px;
 }
 
