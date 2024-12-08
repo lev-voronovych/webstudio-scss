@@ -3,7 +3,7 @@
   background-color: $LightBgColor;
 }
 
-.team-title {
+.team__title {
   margin-bottom: 30px;
   color: $MainTextColor;
   text-align: center;
@@ -13,23 +13,23 @@
   letter-spacing: 0.84px;
 }
 
-.team-list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc((100% - 60px) / 3);
   gap: 30px;
 }
 
-.team-item {
+.team__item {
   border-radius: 0px 0px 4px 4px;
   background: #FFF;
 }
 
-.team-thumb {
+.team__info {
   padding: 30px 0;
 }
 
-.team-img {
+.team__image {
   margin-bottom: 30px;
 }
 

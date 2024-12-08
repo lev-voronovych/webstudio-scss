@@ -18,13 +18,13 @@
 
 
 
-.features-list {
+.features__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.features-thumb {
+.features__icon-container {
     padding: 25px 190px;
     margin-bottom: 30px;
     width: 450px;
@@ -33,7 +33,7 @@
 }
 
 
-.features-subtitle {
+.features__title {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -44,7 +44,7 @@
     letter-spacing: 0.42px;
 }
 
-.features-text {
+.features__description {
     color: $LinkColor;
     font-size: 14px;
     font-weight: 400;

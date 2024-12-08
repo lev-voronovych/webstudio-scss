@@ -3,12 +3,12 @@
     padding-bottom: 25px;
 }
 
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 }
 
-.header-logo {
+.header__logo{
     margin-right: 93px;
     color: #000;
     font-family: Raleway;
@@ -17,17 +17,17 @@
     line-height: 1.4;
 }
 
-.logo-span {
+.header__logo--highlight {
     color: $ColorAccent;
 }
 
 
-.nav-list {
+.header__nav-list {
     display: flex;
     gap: 50px;
 }
 
-.nav-link {
+.header__nav-link {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
@@ -35,13 +35,13 @@
     color:$MainTextColor;
 }
 
-.nav-link:hover {
+.header__nav-link:hover {
     color:$ColorAccent;
 }
-.nav-item:nth-child(1){
+.header__nav-item:nth-child(1){
     color: $ColorAccent;
 }
-.nav-item:nth-child(1)::after{
+.header__nav-item:nth-child(1)::after{
     content: "";
     margin-top: 30px;
     display: inline-block;
@@ -50,17 +50,17 @@
     border-radius:2px;
     background-color: $ColorAccent;
 }
-.header-contacts {
+.header__contacts {
     display: flex;
     gap: 50px;
     margin-left: auto;
 }
 
-.contacts-svg {
+.header__contacts-icon {
     margin-right: 10px;
 }
 
-.contacts-link {
+.header__contacts-link {
     margin-left: 10px;
     font-size: 14px;
     font-weight: 500;
@@ -69,10 +69,10 @@
     color:$LinkColor;
 }
 
-.contacts-item:hover {
+.header__contacts-item:hover {
     fill:$ColorAccent;
 }
 
-.contacts-link:hover {
+.header__contacts-link:hover {
     color:$ColorAccent;
 }

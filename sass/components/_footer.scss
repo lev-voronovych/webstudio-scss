@@ -3,16 +3,16 @@
     background-color: $DarkBgColor;
 }
 
-.footer-box {
+.footer__container {
     display: flex;
 }
 
 
-.addres-box {
+.footer__address-container {
     margin-right: 70px;
 }
 
-.footer-logo {
+.footer__logo{
     margin-bottom: 20px;
     color: #FFF;
     font-family: Raleway;
@@ -23,11 +23,11 @@
 }
 
 
-.address-list li {
+.footer__address-list li {
     margin-bottom: 9px;
 }
 
-.address-link {
+.footer__address-link {
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
@@ -45,7 +45,7 @@
 
 
 
-.footer-subtitle {
+.footer__subtitle {
     margin-bottom: 20px;
     color:$WhiteColor;
     font-size: 14px;
@@ -54,12 +54,12 @@
     letter-spacing: 0.42px;
 }
 
-.footer-list {
+.footer__list {
     display: flex;
     gap: 10px;
 }
 
-.footer-item {
+.footer__item {
     padding: 12px;
     width: 44px;
     height: 44px;
@@ -68,6 +68,6 @@
     background-color: rgba(255, 255, 255, 0.10);
 }
 
-.footer-item:hover {
+.footer__item:hover {
     background-color:$ColorAccent;
 }
