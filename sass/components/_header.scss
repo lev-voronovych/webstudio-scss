@@ -33,11 +33,13 @@
     line-height: 1.4;
     letter-spacing: 0.28px;
     color:$MainTextColor;
+
+        &:hover,
+     &:focus{
+    color:$ColorAccent;
+    }
 }
 
-.header__nav-link:hover {
-    color:$ColorAccent;
-}
 .header__nav-item:nth-child(1){
     color: $ColorAccent;
 }
