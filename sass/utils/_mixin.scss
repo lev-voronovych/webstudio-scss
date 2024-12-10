@@ -20,13 +20,14 @@
     letter-spacing: $letter-spacing;
 }
 
-@mixin flex-center($direction: row, $gap: 0) {
+@mixin flex-set($direction: row, $gap: 0, $justify: flex-start, $align: stretch) {
     display: flex;
     flex-direction: $direction;
-    justify-content: center;
-    align-items: center;
+    justify-content: $justify;
+    align-items: $align;
     gap: $gap;
 }
+
 
 @mixin box-styles($padding, $bg-color, $radius: 0) {
     padding: $padding;

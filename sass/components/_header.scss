@@ -60,6 +60,10 @@
 
 .header__contacts-icon {
     margin-right: 10px;
+
+    &:hover,:focus{
+            fill:$ColorAccent;
+    }
 }
 
 .header__contacts-link {
@@ -69,12 +73,8 @@
     line-height: 1.4;
     letter-spacing: 0.28px;
     color:$LinkColor;
-}
 
-.header__contacts-item:hover {
-    fill:$ColorAccent;
-}
-
-.header__contacts-link:hover {
-    color:$ColorAccent;
+      &:hover,:focus{
+            fill:$ColorAccent;
+    }
 }
