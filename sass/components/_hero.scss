@@ -1,35 +1,55 @@
 .hero {
-    padding: 200px 0;
-    background-image: url(../pictures/webstudio/hero-bg.png);
-    background-color: rgba(47, 48, 58, 0.40);
+  padding: 200px 0;
+
+  background-image: url(../../pictures/webstudio/hero-mob-1x.jpg);
+  background-color: rgba(47, 48, 58, 0.4);
+
+  @media screen and (min-width: $tablet) {
+    background-image: url(../../pictures/webstudio/hero-tab-1x.jpg);
+  }
+  @media screen and (min-width: $desktop) {
+    background-image: url(../../pictures/webstudio/hero-desk-1x.png);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../../pictures/webstudio/hero-mob-2x.jpg);
+    @media screen and (min-width: $desktop) {
+      background-image: url(../../pictures/webstudio/hero-desk-2x.jpg);
+    }
+    @media screen and (min-width: $tablet) {
+      background-image: url(../../pictures/webstudio/hero-tab-2x.jpg);
+    }
+  }
 }
 
 .hero__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero__title {
-    text-align: center;
-    margin-bottom: 30px;
-    width: 360px;
-    font-size: 26px;
-    font-weight: 900;
-    line-height: 1.8;
-    letter-spacing: 1.56px;
-    color: $WhiteColor;
-        text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 360px;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.8;
+  letter-spacing: 1.56px;
+  color: $WhiteColor;
+  text-transform: uppercase;
 }
 
 .data-modal-open {
-    padding: 10px 24px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.9;
-    letter-spacing: 0.96px;
-    background-color: $ColorAccent;
-    color:$WhiteColor;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.96px;
+  background-color: $ColorAccent;
+  color: $WhiteColor;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
